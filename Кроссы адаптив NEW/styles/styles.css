@@ -1,0 +1,239 @@
+/* */
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tomorrow', sans-serif ;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+
+    .desktop-hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .mobile-hidden {
+        display: none;
+    }
+}
+
+.mobile-button button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.mobile-cart a {
+    text-decoration: none;
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+/* Header */
+
+header {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.header-navigation ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.header-navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.action-button {
+    cursor: pointer;
+    font-family: inherit;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.section1 {
+    background-color: #e6ece0;
+    background-image:url(../images/Rectangle-2.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 38px;
+}
+
+.section1 .main-title {
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.section2 {
+    padding: 150px 100px;
+    display: flex;
+    flex-shrink: 0;
+    /* flex-direction: row; */
+    align-items: center;
+    gap: 32px;
+}
+
+.section2 p {
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.section3 {
+    background-color: #7e967c;
+    padding: 200px;
+    background-image:url(../images/Rectangle-2.png);
+}
+
+.section3 p {
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.section4 {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    gap: 64px;
+    padding: 120px 20px;
+}
+
+
+
+.p1 {
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+}
+
+.p2 {
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.section2 {
+    flex-direction: row;
+}
+
+.section4 {
+    flex-direction: row;
+}  
+
+@media screen and (max-width: 768px) {
+
+    header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    .section1 {
+        padding: 50px 20px;
+    }
+    .section1 .main-title{
+        font-size: 26px;
+    }
+
+    .section2 {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    
+    .section3 {
+        padding: 40px;
+    }
+
+    .section2 p {
+        font-size: 20px;
+    }
+
+    .section3 p {
+        font-size: 24px;
+    }
+
+    .section4 {
+        flex-direction: column;
+        padding: 24px 20px;
+    }
+
+    .p1 {
+        font-size: 24px;
+    }
+
+    .p2 {
+        font-size: 20px;
+    }
+}
